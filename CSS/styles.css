@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  @import url(https://fonts.google.com/specimen/Outfit);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  color: hsl(0, 0%, 100%);
+  color: hsl(212, 45%, 89%);
+  color: hsl(220, 15%, 55%);
+  color: hsl(218, 44%, 22%);
+}
+
+img {
+  width: 100vw;
+  background-size: cover;
+}
+
+@media (max-width: 375px) {
+  body {
+    background-image: url(../IMG/mobile-design.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  img {
+    display: none;
+  }
+}
